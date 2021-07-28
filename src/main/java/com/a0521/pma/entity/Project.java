@@ -20,7 +20,7 @@ public class Project {
 
 	@Id
 //	@GeneratedValue(strategy = GenerationType.AUTO)
-	@GeneratedValue(strategy = GenerationType.SEQUENCE)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@SequenceGenerator(name = "project_seq")
 	
 	private long projectId;
